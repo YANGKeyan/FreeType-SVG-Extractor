@@ -2,6 +2,16 @@
 
 This code is a program that uses the FreeType library. Its main function is to extract Bezier curves from TrueType font files, output the outline data as SVG paths, and support some console commands to specify the input and output files.
 
+
+# Directory Structure
+| folders               |                   |
+|-----------------------|-------------------|
+| project               |  code             |
+| x64      | Task3 model       | 
+| └── Debug           | exe&output.svg  |
+| project.sln    | A more comprehensive and complete version |
+| FreeTypeSVGExtractor.c  | version 1.0 |
+
 ## FreeTypeSVGExtractor.c
 
 The main program procedure is as follows:
@@ -25,3 +35,9 @@ Open the input file, read the characters in it, and then output to the output fi
 Finally, the associated resources are released, including the FreeType library, fonts, and file pointers.
 
 Note that the program requires console parameters such as input file (-i) and output file (-o) to be supplied when used. You can type Project -h in the console to see instructions for use.
+
+## project.sln
+
+This is a freetype based tool for extracting glyphs. in the SVG format to stdout.
+
+Try 'Project [-h]' to get help.
